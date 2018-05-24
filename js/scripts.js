@@ -48,3 +48,4 @@ a. Year the move cam Documentb. Ingredients of you favorite foods as an array.
 // console.log(myFoodIngredients);
 // alert(favoriteFood + ingredients);
 // confirm (myFavoriteMovie)
+
