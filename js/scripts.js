@@ -20,35 +20,48 @@
 // if(!name || age){
 //   alert('one exists');
 // }
-let numOne = parseInt(prompt("enter a number", 10)
-let numTwo = prompt("give me another number", 10)
-numTwo = parseInt(numTwo);
-alert(numOne + numTwo);
 
-let firsName = prompt("What is your first name?", "Tom")
-switch(firstName)
-case 'tom':
-alert('Hello Tom!);');
-break;
-case 'john':
-case 'harry':
-case 'peter':
-alert('your name is very common.');
-break;
-default:
-alert('I have never heard that name before');
-break
-swith(firstName.toLowerCase()) {}
 
+
+// let arr = ['It is a mad mad mad mad world', 8, true, 1972];
+// conslole.log(favs, favs.length);
+//
+// //try it out #1
+// let favs = ["Rogue One", 51, true, 2004];
+// console.log(Array.isArray(favs));
+
+// var toDoItems = ['reedley job', 'visalia lead', 'layout Kathy Spa'];
+// var acitivites= toDoItems[toDoItems.length - 1];
+// console.log(acitivites);
+//
+// const products = [["blanket", 12.99, "The best blanket around."], ['rattlw', 4.99, "It rattles man..."]];
+//
+// let favMovies = ['Help', 'Koch', 'starwars', 'rocky', 'bridge of the river koi']
+// let
+//
+// console.log(movies.length);
+// var first = favMovies[0];
+//
+// favMovies.forEach(function(item, index, array) {
+//   console.log(item, index);
+// });
+// Apple
+
+// 2
+
+for(let i =0; i <= 3; i++){
+  console.log()
 }
-let favColor =prompt('give me your fav color','...');
-switch(favColor.upperLowerCase()) {//normalize the data
-case 'blue':
-alert('$(favColor) is my favorite too!);')
-break;
-//...
-default:
-alert ('Hey $(name), thats not a valid option.');
-break;}
-
-// console.log(name && age);
+while(i < 3){
+  console.log(i);
+}
+let numbers = [1,2,3];
+numbers.forEach(function)(number){
+  console.log(number);
+  let newTask = document.createElement("li")
+});
+let task1 = 1;
+let task2 = 2;
+let task3 = 3;
+if(task1 == 1 && task2 == 2 && task3 == 3)
+console.log("JS homework" + "startup solar" + "demo spa");
