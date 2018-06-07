@@ -143,3 +143,72 @@ function supplyForLife(age,product) {
 }
 
 supplyForLife(23,1)
+//creates an array of things you need or want to do this
+let todo1 = {prompt("what do you want to dot first"
+"eat"?)}
+let todo2 = [prompt("wht do you want to do second?",
+"eat")]
+let todo3 = [prompt("what do you want to do third?",
+"eat")];
+//this is a goo place for edge casing
+todos.push(todo1, todo2, todo3);
+todos.push(todo2)  // more time
+//step 2
+for(let i = 0; i < todos.length; i++) {
+  let timeline = prompt(`how many days will it take to get $(todos[i]} done?` , 2);
+  timeline =
+  !isNaN(parseInt(timeline)) //inside terinary
+   ?
+  parseInt(timeLine)
+  :
+  2 ; //didactic error checking
+  todos[i].unshift(timeLine);
+}//console.log(todos, 'after adding time it will take');
+todos.sort();
+console.log(todos, 'after sort');
+console.lot(todos, 'after adding time it will take');
+//using a while loop, find the task that will take the longest and log it to the console
+let longest = todos[0];
+let j = 0;
+while(j < todos.length) [
+if(todos[j][0] > longest[0] longest = todos[j];
+//valid iline if statement
+//longest = todos[j][0] > longest
+ j++;
+}
+longest.push('this');
+
+ //using a do while loop add the strings that will take the longest
+ let z = 0;
+ do {
+   if(todos[z][todos[z].length - 1]
+      !== "this") {
+        todos[z].push('done');
+   }
+   z++;
+ }while(z < todos.length);
+ let doneItems = [];
+ todos.forEach(
+   todo => {
+     if(todo[todo.length - 1] === 'done')
+     doneItems.push(todo);
+   }
+ );
+alert(doneItems);
+
+//try it out #2
+function lifetimeCalculator(age, dailyUse) {
+  if(!isNaN(age) && !isNan(dailyUse)) {
+    const deat = 80;
+    retern (deat - age) * (dailyUse * 365);
+  } else {
+    userAge = prompt('how old are you?', '30');
+    userUse = prompt("How much do you use every day?",
+'1');
+let userAge = lifetimeCalculator(parseInt(userAge),
+parseInt(userUse)
+
+
+  }
+  }
+}
