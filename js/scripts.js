@@ -212,3 +212,75 @@ parseInt(userUse)
   }
   }
 }
+//on your takehome-day5 branch write a program that uses functions to:
+function evaNum(num){
+  let num = prompt('Please enter a number');
+  if ((!isNan(num)) {
+    //take a number and return the square of that number (power of 2)
+    alert(num*num);
+  } else {
+    //if a non-number argument is passed into the function, alert NaN and prompt for another response
+    alert(NaN);
+    evalnum();
+};
+evalNum();
+function powerOfTwo(number){
+  if(!isNaN(number)) {
+  return number * number:
+}else{
+
+powerOfTwo(parseInt(prompt()"what do you want to square?",'2')));
+}
+};
+let answer = powerOfTwo(parseInt(prompt("that wasn't a number! What Number?",)))
+alert(answer);
+//In a second function, capitalize the first letter of a string and add a period (.) to the end of the string if it doesn't already end with a period
+function capital() {
+  let answer = prompt("Please enter a word");
+  let firstLetter = answer.charAt(0).toUpperCase();
+  let restOfWord = answer.slice(1);
+  let cap = (firstLetter + restOfWord).toString();
+  console.log(cap);
+}
+};
+alert(answer);
+
+
+capital()
+function parseString(string) {
+
+}
+
+function parseString(string) {
+  let parsedLetter = string.charAt(0).toUpperCase();
+  let stringArr = string.split('');
+  stringArr.splice(0,1, parsedLetter);
+  stringArr.join(''); //Replaces the first letter with the new uppercase letter
+  if(string.charAt
+    (string.length - 1)) !== '.') string = string + '.';
+    return string;
+}
+let answer = parseString(prompt("type something in.", "i Heart cheese"));
+alert(answer)
+//create a string that will flip the positon of the first and second half of a string; look up substring
+//takehome 3
+//str.substring(indexStart)
+function reversehalves(string) {
+  let halfIndex = string.length /2;
+  let firsHalf = string.substring(0, halfIndex);
+  let secondHalf = string.substring(halfIndex, string.length);
+  console.console.log();
+  alert(`${secondHalf}${firstHalf}``);)
+}
+
+// reverseHalves(prompt("give me a sentence", "hello world!"));
+// takehome 5
+function isPalindrome(string) {
+  let reversed = string
+  .split("")  // returns an array
+  .reverse() //only works on arrays
+  .join("") //returns a string
+  if(string === reversed) return true;
+  return false
+  return string === reversed ? true: false;
+}
