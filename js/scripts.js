@@ -212,3 +212,26 @@ parseInt(userUse)
   }
   }
 }
+//on your takehome-day5 branch write a program that uses functions to:
+function evaNum(num){
+  let num = prompt('Please enter a number');
+  if ((!isNan(num)) {
+    //take a number and return the square of that number (power of 2)
+    alert(num*num);
+  } else {
+    //if a non-number argument is passed into the function, alert NaN and prompt for another response
+    alert(NaN);
+    evalnum();
+  }
+};
+evalNum();
+//In a second function, capitalize the first letter of a string and add a period (.) to the end of the string if it doesn't already end with a period
+function capital() {
+  let answer = prompt("Please enter a word");
+  let firstLetter = answer.charAt(0).toUpperCase();
+  let restOfWord = answer.slice(1);
+  let cap = (firstLetter + restOfWord).toString();
+  console.log(cap);
+}
+
+capital()
