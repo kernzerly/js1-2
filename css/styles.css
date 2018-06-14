@@ -1,0 +1,22 @@
+body{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.header{
+  background-color: tan;
+
+}
+.main-container{
+  border: 1px dashed red;
+  height: inherit;
+  /* width: 100%; */
+}
+.week{
+  width: 100%;
+}
+.column{
+  border: 1px dashed black;
+  height: 100px;
+  padding: 0px;
+}
