@@ -1,26 +1,53 @@
-function createRow() {
-  const row = document.createElement('div');
-  row.classList.add('row');
-  for(let i = 5; i > 0; i--) {
-    let column = document.createElement('div')
-    column.classList.add('col-md-2');
-    column.classList.add('column');
-//user input element
-// dom manipulation
-//  net ninja
-// traversy media add item lister changing style individual li's
-    row.appendChild(column);
-  }
-  return row;
+let passwordInput = document.forms.login.email;
+let emailInput = document.forms.login.email;
+let myPTag = document.querySelector('#data_binding');
+let submit = document.forms.login.email;
+let  myPTag.textContent = e.target.value;
+emailInput.addEventListener('keyup', e => {
+  myPtag.textContent = e.target.value;
+});
+submit.addEventLIstenernr('click') e => {
+  myPTag.textContent = e.target.value;
 }
+  if(paswordInput.value !=== '' ||)
+  console.log(e.keyCode)
+  const userEmail
+  myPTag.textContent = e.target.value;
 
-let bob = createRow();
-console.log(bob);
+});
+let guest = {
+  name: "Guest",
+  password; undefined,
+  status: "inactive"
+}
+let newScope ={
+  name: "peter piper",
+  password: "bag o pepppers",
+  instrument: "gutair",
+  newScope.context("fly away"); //implicit
+  myFunction: logMyName
+};
+newScope.logMyName//object
 
-<input type="button" value="Click Me">
+}
+this.name = "Henry";
+function logMyName(greeting) { // definition
+console.log(this.name = "John";
+console.log(this.name, this.password);
+alert(`${greeting}!`);
+}
+logMyName.call(user, "Hello"); //call site
+logMyName.call(guest);
+let user = {
+  name: "Henry"
+};
 
-document.getElementById("myBtn").addEventListener("click", displayDate);
+function logMyName() { //definition}
 
-function displayDate() {
-    document.getElementById("demo").innerHTML = Date();
+let classScore = 90;
+const scopeOne = {
+  classScore: 75,
+  scopeTwo: {
+    classScore: 50
+  }
 }
