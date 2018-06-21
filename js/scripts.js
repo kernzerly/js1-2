@@ -1,87 +1,93 @@
-let passwordInput = document.forms.login.email;
-let emailInput = document.forms.login.email;
-let myPTag = document.querySelector('#data_binding');
-let submit = document.forms.login.email;
-let  myPTag.textContent = e.target.value;
-emailInput.addEventListener('keyup', e => {
-  myPtag.textContent = e.target.value;
-});
-submit.addEventLIstenernr('click') e => {
-  myPTag.textContent = e.target.value;
-}
-  if(paswordInput.value !=== '' ||)
-  console.log(e.keyCode)
-  const userEmail
-  myPTag.textContent = e.target.value;
 
-});
-let guest = {
-  name: "Guest",
-  password; undefined,
-  status: "inactive"
-}
-let newScope ={
-  name: "peter piper",
-  password: "bag o pepppers",
-  instrument: "gutair",
-  newScope.context("fly away"); //implicit
-  myFunction: logMyName
-};
-newScope.logMyName//object
+let recipe = {
+  flour: '20 oz',
+  eggs: 3,
+  vanilla: true,
+  rum: 'hella'
+  console.log('recipe')
 
-}
-this.name = "Henry";
-function logMyName(greeting) { // definition
-console.log(this.name = "John";
-console.log(this.name, this.password);
-alert(`${greeting}!`);
-}
-logMyName.call(user, "Hello"); //call site
-logMyName.call(guest);
-let user = {
-  name: "Henry"
 };
 
-function logMyName() { //definition}
+let vehicle = {
+  wheels: 4,
+  windows: null,
+  engineSize:
+  let stringExample = newString("hellow there");
+  let numberExample = new Number(94);
+  Let boolExample = new Boolean(true);
+  let arrayExample = new Array(["cheese", 222, [2]]);
+  let objectExample = new
 
-let classScore = 90;
-const scopeOne = {
-  classScore: 75,
-  scopeTwo: {
-    classScore: 50
+
+}
+function Spaceship(rockets, fluxCapcity, pilot, blasters, shield, landingGear){
+  this.rockets = rockets;  //arguments, constructor function
+  this.fluxCpacitor = fluxCapacitor;
+  this.pilot = pilot;
+  this.blasters = blasters;
+  this.shield = shield;
+  this.landingGear = landingGear
+};
+let firefly = new Spacehip(4, false, "mal Reynolds", infinity, false, "broken");
+console.log(firefly.blasters);
+//to do move over to the other list
+function Todo(name, dueDate, status, done, timeElapsed, dueByTime, priority, peopleWith, tags, necessaryWith){
+  this.name = name:
+  //objects and constructors give you more options/  null is the complete absence of value
+}
+<form action="" name="new userForm">
+let userName = document.form.newUserForm.username.value;
+let password =
+document.forms.newUserForm.passowrd.value;
+let submitBtn =
+document.querySlector('.btn');
+submitBtn.addEventLister('click', e => {
+  if(e.keyCode === 13) {
+    password.addEventListener('keydown',)
+    magicalDragons e =>
+  {
+    function User(name, pw) {
+
+    }
+    submitBtn.addEventListener('click', e => {
+      e.preventDefault();let newUser = new User(usrName,
+      password)
+      document.forms.newUserForm.reset();
+      users.push(newUser);
+      console.log(newUser);
+    });
+    submitBtn. addEvenListener('click')
+    //timers
+    let advertisement = "Hey!!! Welcome to our site!!! Get 40% off today!!!";
+    setTimeout(() => {
+      alert(avertisemnt);
+    },5000);
+    let CancelBtn =
+
+    document.forms
+    }
+    (alert(advertisement);
+      () => {
+
+      },
+      5000
+    )
+
+
   }
+})
+let cart =[];
+function ProductName
+<form action="" name="orderForm">
+<button class ="btn btn-default"
+let soaBtn = document.forms.orderform.soapBtn;
+soap.addEventListener('click', e=> {
+  e.preventDefault();
+  let soap = new Product ('soap", 2.99, "makes you clean"')
+  cart.push(soap);  //all methods are attached to objects and take them in as an arguments
+  localStorage.setItem("soap",soap);
+})
+function getSoap() {
+  console.log(localStorage.getItem('soap'))
+  //for in value to build string with children that are nested
 }
-
-// brandy wed. object lesson
-    let object1 = {}
-    let object2 = new Object();
-
-    let person = {
-      firstName: "brandy",
-      lastName: "Moreno",
-      age: 22,
-      favorites: ("cookies", "pizza"),
-      desc : {
-        hairColor: "brown",
-      }
-    }
-    object1.food="pizza";
-    object1('color')='pink';
-    console.log(object1)
-    console.log(object1.age)
-    consolelog(person.firstName)
-    // console.log(person)
-    // for in
-    for(let key in person) {
-      // console.log('key, key)')
-      console.log('key', key)
-    }
-    // for .. of
-    for(let [key, value] of Object.entries(person)){
-      console.log(key, value)
-    }
-    let newObj = Object.create(object1);
-    newObj.lower = "rose";
-    newObj.color = 'yellow';
-    console.log('newobj', newObj);
-    console.log('object1', object1)
