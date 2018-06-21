@@ -24,3 +24,8 @@ document.getElementById("myBtn").addEventListener("click", displayDate);
 function displayDate() {
     document.getElementById("demo").innerHTML = Date();
 }
+
+var i;
+
+// for (i=0; i<10; i++) {
+// 	if (i > 5)

@@ -17,6 +17,9 @@ body{
 }
 .column{
   border: 1px dashed black;
-  height: 100px;
+  /* height: 100px; */
   padding: 0px;
+}
+.icon{
+  color: red;
 }
