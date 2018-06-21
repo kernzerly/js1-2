@@ -51,3 +51,37 @@ const scopeOne = {
     classScore: 50
   }
 }
+
+// brandy wed. object lesson
+    let object1 = {}
+    let object2 = new Object();
+
+    let person = {
+      firstName: "brandy",
+      lastName: "Moreno",
+      age: 22,
+      favorites: ("cookies", "pizza"),
+      desc : {
+        hairColor: "brown",
+      }
+    }
+    object1.food="pizza";
+    object1('color')='pink';
+    console.log(object1)
+    console.log(object1.age)
+    consolelog(person.firstName)
+    // console.log(person)
+    // for in
+    for(let key in person) {
+      // console.log('key, key)')
+      console.log('key', key)
+    }
+    // for .. of
+    for(let [key, value] of Object.entries(person)){
+      console.log(key, value)
+    }
+    let newObj = Object.create(object1);
+    newObj.lower = "rose";
+    newObj.color = 'yellow';
+    console.log('newobj', newObj);
+    console.log('object1', object1)
