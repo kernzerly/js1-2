@@ -23,3 +23,8 @@ body{
 .icon{
   color: red;
 }
+.myElement {
+	/* Generated with http://gradient.quasi.ink */
+	background-size: cover;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAADCAYAAABfwxXFAAAAAXNSR0IArs4c6QAAAGJJREFUCB0BVwCo/wFJHVH/IQ4fAFxaSgDlztYAKfkWACEYHQCZzcMAAbNmp//i2d4A6gr3AD1VSwDZusQANwsWADMiLgAE2ufmAOn56wDk9vUACNzXAB1AJwCjmroA1eT0AKqjI8Om18fNAAAAAElFTkSuQmCC);
+}
