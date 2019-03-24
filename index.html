@@ -12,23 +12,25 @@
 <body>
   <div class="container-fluid main-container">
     <div class="row header text-center">
-       <h1>Weekly Acitivity list</h1>
+       <h1>Weekly Activity list</h1>
     </div>
      <div class="row week">
        <div class="col-md-2 column" id="column1">
-        <h1>Monday</h1>
+        <h1 id="hm">Monday</h1>
+        <!-- <span style="color:blue;font-weight:bold"></span> -->
         <div class="row">
           <div class="col-md-12">
           <div>
-            <p>add task </p>
-            <input type="text" class="newaddTask">
-            <button class = "addButton">add new acitivity</button>
+            <p>Add new acitivity </p>
+            <input type="text" class="newaddTaskMonday">
+            <button class = "addButtonMonday">Acitivity</button>
           </div>
           <div>
-            <ul class="todoList">
+            <ul class="todoListMonday">
+
 
             </ul>
-
+            <p id="countMonday"> You have zero activities today </p>
           </div>
             <!-- //light bulb  -->
             <!-- <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
@@ -40,77 +42,113 @@
         </div> <!-- first form row end -->
       </div>
        <div class="col-md-2 column" id="column2">
-         <h1>Tuesday</h1>
-         <div class="row">
-           <div class="col-md-12">
-             <form class="input-group">
-               <span class="input-group-addon">
-                 <input type="checkbox" aria-label="...">
-                   <i class="fas fa-trash-alt icon"></i>
-               </span>
-               <input type="text" class="form-control" aria-label="...">
-             </form><!-- /input-group -->
-           </div>
+         <h1 id="ht">Tuesday</h1>
+           <div class="row">
+             <div class="col-md-12">
+             <div>
+               <p>Add new acitivity </p>
+               <input type="text" class="newaddTaskTuesday">
+               <button class = "addButtonTuesday">Acitivity</button>
+             </div>
+             <div>
+               <ul class="todoListTuesday">
+
+
+               </ul>
+               <p id="countTuesday"> You have zero activities today </p>
+             </div>
+
+
+
+           </div> <!-- first form row end -->
          </div>
       </div>
        <div class="col-md-2 column" id="column3">
-         <h1>Wednesday</h1>
-         <div class="row">
-           <div class="col-md-12">
-             <form class="input-group">
-               <span class="input-group-addon">
-                 <input type="checkbox" aria-label="...">
-                   <i class="fas fa-trash-alt icon"></i>
-               </span>
-               <input type="text" class="form-control" aria-label="...">
-             </form><!-- /input-group -->
-           </div>
+         <h1 id="hw">Wednesday</h1>
+           <div class="row">
+             <div class="col-md-12">
+             <div>
+               <p>Add new acitivity </p>
+               <input type="text" class="newaddTaskWednesday">
+               <button class = "addButtonWednesday">Acitivity</button>
+             </div>
+             <div>
+               <ul class="todoListWednesday">
+
+
+               </ul>
+
+             </div>
+
+           </div> <!-- first form row end -->
          </div>
        </div>
+       <!--  Thursday-->
        <div class="col-md-2 column" id="column4">
-         <h1>Thursday</h1>
+          <h1 id="hth">Thursday</h1>
          <div class="row">
            <div class="col-md-12">
-             <form class="input-group">
-               <span class="input-group-addon">
-                 <input type="checkbox" aria-label="...">
-                   <i class="fas fa-trash-alt icon"></i>
-               </span>
-               <input type="text" class="form-control" aria-label="...">
-             </form><!-- /input-group -->
+           <div>
+             <p>Add new acitivity </p>
+             <input type="text" class="newaddTaskThursday">
+             <button class = "addButtonThursday">Acitivity</button>
            </div>
-         </div>
+           <div>
+             <ul class="todoListThursday">
+
+
+             </ul>
+
+           </div>
+
+         </div> <!-- first form row end -->
+       </div>
        </div>
        <div class="col-md-2 column" id="column5">
-         <h1>Friday</h1>
-         <div class="row">
-           <div class="col-md-12">
-             <form class="input-group">
-               <span class="input-group-addon">
-                 <input type="checkbox" aria-label="...">
-                   <i class="fas fa-trash-alt icon"></i>
-               </span>
-               <input type="text" class="form-control" aria-label="...">
-             </form><!-- /input-group -->
-           </div>
-         </div>
-       </div>
+         <h1 id="hf">Friday</h1>
+        <div class="row">
+          <div class="col-md-12">
+          <div>
+            <p>Add new acitivity </p>
+            <input type="text" class="newaddTaskFriday">
+            <button class = "addButtonFriday">Acitivity</button>
+          </div>
+          <div>
+            <ul class="todoListFriday">
+
+
+            </ul>
+
+          </div>
+
+        </div> <!-- first form row end -->
+      </div>
+      </div>
        <div class="col-md-2 column" id="column6">
-         <h1>Saturday</h1>
-         <div class="row">
-           <div class="col-md-12">
-             <form class="input-group">
-               <span class="input-group-addon">
-                 <input type="checkbox" aria-label="...">
-                   <i class="fas fa-trash-alt icon"></i>
-               </span>
-               <input type="text" class="form-control" aria-label="...">
-             </form><!-- /input-group -->
-           </div>
-         </div>
+         <h1 id="hs">Saturday</h1>
+        <div class="row">
+          <div class="col-md-12">
+          <div>
+            <p>Add new acitivity </p>
+            <input type="text" class="newaddTaskSaturday">
+            <button class = "addButtonSaturday">Acitivity</button>
+          </div>
+          <div>
+            <ul class="todoListSaturday">
+
+
+            </ul>
+
+          </div>
+
+        </div> <!-- first form row end -->
+      </div>
+      </div>
        </div>
      </div>
    </div>
+
+
    <!-- <p>This example uses the addEventListener() method to attach a click event to a button.</p> -->
 
 <!-- <button id="myBtn">Try it</button> -->
