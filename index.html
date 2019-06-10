@@ -10,143 +10,175 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="container-fluid main-container">
+  <div class="container-fluid main-container no-marging-padding">
     <div class="row header text-center">
        <h1>Weekly Activity list</h1>
     </div>
-     <div class="row week">
-       <div class="col-md-2 column" id="column1">
-        <h1 id="hm">Monday</h1>
-        <!-- <span style="color:blue;font-weight:bold"></span> -->
-        <div class="row">
-          <div class="col-md-12">
-          <div>
-            <p>Add new acitivity </p>
-            <input type="text" class="newaddTaskMonday">
-            <button class = "addButtonMonday">Acitivity</button>
+    <div class="row week container-fluid no-marging-padding">
+      <div class="col-md-7 no-marging-padding">
+        <div class"row container-fluid">
+        <div class="col-md-3 column" id="column1">
+          <h2 id="hm">Monday</h2>
+          <div class="row">
+            <div class="col-md-12">
+            <div>
+              <p>Add new acitivity </p>
+              <input type="text" class="newaddTaskMonday">
+              <button class = "addButtonMonday">Acitivity</button>
+            </div>
+            <div>
+              <ul class="todoListMonday">
+
+
+              </ul>
+              <p id="countMonday"> You have zero activities today </p>
+            </div>
+              <!-- //light bulb  -->
+              <!-- <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+
+              <img id="myImage" src="pic_bulboff.gif" style="width:100px">
+
+              <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button> -->
+            </div>
           </div>
-          <div>
-            <ul class="todoListMonday">
+        </div>
+        <div class="col-md-3 column" id="column2">
+          <h2 id="ht">Tuesday</h2>
+            <div class="row">
+              <div class="col-md-12">
+              <div>
+                <p>Add new acitivity </p>
+                <input type="text" class="newaddTaskTuesday">
+                <button class = "addButtonTuesday">Acitivity</button>
+              </div>
+              <div>
+                <ul class="todoListTuesday">
 
 
-            </ul>
-            <p id="countMonday"> You have zero activities today </p>
+                </ul>
+                <p id="countTuesday"> You have zero activities today </p>
+              </div>
+
+
+
+            </div> <!-- first form row end -->
           </div>
-            <!-- //light bulb  -->
-            <!-- <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+        </div>
+        <div class="col-md-3 column" id="column3">
+          <h2 id="hw">Wednesday</h2>
+            <div class="row">
+              <div class="col-md-12">
+              <div>
+                <p>Add new acitivity </p>
+                <input type="text" class="newaddTaskWednesday">
+                <button class = "addButtonWednesday">Acitivity</button>
+              </div>
+              <div>
+                <ul class="todoListWednesday">
 
-            <img id="myImage" src="pic_bulboff.gif" style="width:100px">
 
-            <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button> -->
+                </ul>
+  <p id="countWednesday"> You have zero activities today </p>
+              </div>
+
+            </div> <!-- first form row end -->
           </div>
-        </div> <!-- first form row end -->
-      </div>
-       <div class="col-md-2 column" id="column2">
-         <h1 id="ht">Tuesday</h1>
-           <div class="row">
-             <div class="col-md-12">
-             <div>
-               <p>Add new acitivity </p>
-               <input type="text" class="newaddTaskTuesday">
-               <button class = "addButtonTuesday">Acitivity</button>
-             </div>
-             <div>
-               <ul class="todoListTuesday">
+        </div>
+        <!-- first form row end -->
+        <div class="col-md-3 column" id="column3">
+          <h2 id="hth">Thursday</h2>
+            <div class="row">
+              <div class="col-md-12">
+              <div>
+                <p>Add new acitivity </p>
+                <input type="text" class="newaddTaskThursday">
+                <button class = "addButtonThursday">Acitivity</button>
+              </div>
+              <div>
+                <ul class="todoListThursday">
 
 
-               </ul>
-               <p id="countTuesday"> You have zero activities today </p>
-             </div>
+                </ul>
+  <p id="countThursday"> You have zero activities today </p>
+              </div>
 
-
-
-           </div> <!-- first form row end -->
-         </div>
-      </div>
-       <div class="col-md-2 column" id="column3">
-         <h1 id="hw">Wednesday</h1>
-           <div class="row">
-             <div class="col-md-12">
-             <div>
-               <p>Add new acitivity </p>
-               <input type="text" class="newaddTaskWednesday">
-               <button class = "addButtonWednesday">Acitivity</button>
-             </div>
-             <div>
-               <ul class="todoListWednesday">
-
-
-               </ul>
-
-             </div>
-
-           </div> <!-- first form row end -->
-         </div>
-       </div>
-       <!--  Thursday-->
-       <div class="col-md-2 column" id="column4">
-          <h1 id="hth">Thursday</h1>
-         <div class="row">
-           <div class="col-md-12">
-           <div>
-             <p>Add new acitivity </p>
-             <input type="text" class="newaddTaskThursday">
-             <button class = "addButtonThursday">Acitivity</button>
-           </div>
-           <div>
-             <ul class="todoListThursday">
-
-
-             </ul>
-
-           </div>
-
-         </div> <!-- first form row end -->
-       </div>
-       </div>
-       <div class="col-md-2 column" id="column5">
-         <h1 id="hf">Friday</h1>
-        <div class="row">
-          <div class="col-md-12">
-          <div>
-            <p>Add new acitivity </p>
-            <input type="text" class="newaddTaskFriday">
-            <button class = "addButtonFriday">Acitivity</button>
+            </div> <!-- first form row end -->
           </div>
-          <div>
-            <ul class="todoListFriday">
+        </div>
+        <!-- first form row end  Friday-->
 
-
-            </ul>
-
-          </div>
-
-        </div> <!-- first form row end -->
       </div>
       </div>
-       <div class="col-md-2 column" id="column6">
-         <h1 id="hs">Saturday</h1>
-        <div class="row">
-          <div class="col-md-12">
-          <div>
-            <p>Add new acitivity </p>
-            <input type="text" class="newaddTaskSaturday">
-            <button class = "addButtonSaturday">Acitivity</button>
+        <div class="col-md-5 no-marging-padding">
+          <div class"row container-fluid">
+          <div class="col-md-4 column" id="column5">
+              <h2 id="hf">Friday</h2>
+                <div class="row">
+                  <div class="col-md-12">
+                  <div>
+                    <p>Add new acitivity </p>
+                    <input type="text" class="newaddTaskFriday">
+                    <button class = "addButtonFriday">Acitivity</button>
+                  </div>
+                  <div>
+                    <ul class="todoListFriday">
+
+
+                    </ul>
+      <p id="countFriday"> You have zero activities today </p>
+                  </div>
+
+                </div> <!-- first form row end -->
+              </div>
           </div>
-          <div>
-            <ul class="todoListSaturday">
+          <div class="col-md-4 column" id="column6">
+            <h2 id="hs">Saturday</h2>
+              <div class="row">
+                <div class="col-md-12">
+                <div>
+                  <p>Add new acitivity </p>
+                  <input type="text" class="newaddTaskSaturday">
+                  <button class = "addButtonSaturday">Acitivity</button>
+                </div>
+                <div>
+                  <ul class="todoListSaturday">
 
 
-            </ul>
+                  </ul>
+    <p id="countSaturday"> You have zero activities today </p>
+                </div>
 
+              </div> <!-- first form row end -->
+            </div>
+        </div>
+<!-- first form row Sunday begin -->
+          <div class="col-md-4 column" id="column7">
+            <h2 id="hsu">Sunday</h2>
+              <div class="row">
+                <div class="col-md-12">
+                <div>
+                  <p>Add new acitivity </p>
+                  <input type="text" class="newaddTaskSunday">
+                  <button class = "addButtonSunday">Acitivity</button>
+                </div>
+                <div>
+                  <ul class="todoListSunday">
+
+
+                  </ul>
+    <p id="countSunday"> You have zero activities today </p>
+                </div>
+
+              </div> <!-- first form row end -->
+            </div>
+        </div>
+          </div>
           </div>
 
-        </div> <!-- first form row end -->
-      </div>
-      </div>
-       </div>
-     </div>
-   </div>
+
+        </div>
+        </div>
+
 
 
    <!-- <p>This example uses the addEventListener() method to attach a click event to a button.</p> -->
